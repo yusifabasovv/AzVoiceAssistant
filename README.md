@@ -47,9 +47,12 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## TODO List
 Feel free to contribute to any of the following tasks:
 
+- [x] Google search
 - [ ] Language options
 - [ ] Chat history
 - [ ] UI for credentials
 - [ ] Streaming for input voice
+- [ ] Wikipeadia search
+
 
 
