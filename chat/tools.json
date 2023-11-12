@@ -1,0 +1,42 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "get_current_date_and_time",
+            "description": "Get the current (today's) date and time",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "time": {
+                        "type": "string",
+                        "description": "Get the current time."
+                    },
+                    "date": {
+                        "type": "string",
+                        "description": "Get the current date."
+                    }
+                },
+                "required": []
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "google_search",
+            "description": "Get any information from google search. It can be anything from weather information to historical events.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "input": {
+                        "type": "string",
+                        "description": "Question about something searchable"
+                    }
+                },
+                "required": [
+                    "input"
+                ]
+            }
+        }
+    }
+]
